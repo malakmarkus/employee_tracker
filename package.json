@@ -4,25 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
+    "start": "node index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/malakmarkus/employee_tracker.git"
-  },
-  "keywords": [],
+  
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/malakmarkus/employee_tracker/issues"
   },
-  "homepage": "https://github.com/malakmarkus/employee_tracker#readme",
+
   "dependencies": {
-    "express": "^4.18.1",
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
     "mysql2": "^2.3.3"
-  },
-  "devDependencies": {
-    "jest": "^28.0.3"
   }
+  
 }
